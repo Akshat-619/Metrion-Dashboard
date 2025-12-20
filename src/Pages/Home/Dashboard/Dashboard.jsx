@@ -20,11 +20,11 @@ const Dashboard = () => {
   return (
     <div>
       <div className='row px-3'>
-          <div className="col-9 ps-3 main-container ">
+          <div className="col-9 ps-3 mt-5 main-container ">
             <div className="active-user ">
 
               {/* <!-- Title --> */}
-              <div className="active-user-title">
+              <div className="pt-5 active-user-title ">
                 <h4>Active users right now</h4>
               </div>
 
@@ -124,7 +124,7 @@ const Dashboard = () => {
             </div>
 
             {/* <!-- ================= SALES BY AGE ================= --> */}
-            <div className="sales-by-age">
+            <div className=" mt-5 sales-by-age">
               <h4>Sales by Age</h4>
               <SalesCharts />
             </div>
@@ -137,8 +137,8 @@ const Dashboard = () => {
           {/* <!-- ================= RIGHT COLUMN ================= --> */}
 
        
-        <div className="col-3 pe-3">
-          <div className="earning">
+        <div className="col-3 pe-3 mt-5">
+          <div className=" earning">
             <div className="earning-title">
               <h4>Your earning this month </h4>
             </div>
@@ -154,7 +154,7 @@ const Dashboard = () => {
 
             <div className="earning-withdraw">
               <div>
-                <p>Withdraw All Earnings</p>
+               
                 <button>Withdraw All Earning <i
                   className="bi bi-credit-card-2-back-fill withdraw-icon"></i></button>
               </div>
@@ -164,7 +164,7 @@ const Dashboard = () => {
           </div>
 
 
-          <div className="earning-item">
+          <div className="mt-5 earning-item">
             <div className="earning-item-title">
               Earnings by item
 
@@ -225,7 +225,7 @@ const Dashboard = () => {
 
 
 
-          <div className="p-0">
+          <div className="p-0 mt-5 ">
             <div className="impression" >
               <h4>Impression</h4>
               <ImpressionCharts />
