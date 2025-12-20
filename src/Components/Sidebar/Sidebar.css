@@ -78,6 +78,7 @@ body {
 .left-container {
  position: sticky;
  top: 0;
+ background-color: white;
 }
 .sidebar-menu > li {
   padding-left: 21px;
