@@ -1,0 +1,297 @@
+<!-- <div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading">Bulk Demand Updation</div>
+            <div class="panel-body">
+
+                <div id="alerts">
+                    <div class="alert alert-success">
+                        <strong>Saved Successfully!</strong>
+                    </div>
+
+                    <div class="alert alert-danger">
+                        <strong>Exception Occurred !</strong>Transaction Failed.
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">Note <b>:</b> <span style="color: #FF0000">* Marked Is Mandatory !</span></div>
+                    <br />
+                </div>
+                <div class="col-md-7">
+                    <div class="form-horizontal">
+                        <div id="pnlSocCollege">
+                            <div class="form-group">
+                                <div class="col-sm-6 form-label">
+                                    Institute
+                                <span style="color: #FF0000; font-weight: bold">*</span>
+
+                                    <input type="hidden" id="hdnSocUser" value='@Session["SOC_USER"]' />
+                                    <input type="hidden" id="hdnCollegeId" value='@Session["COLLEGEID"]' />
+                                </div>
+                                <div class="col-sm-6">
+                                    <select id="ddlCollege" tabindex="1" class="form-control">
+                                        <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="form-group">
+                            <div class="col-sm-6 form-label">
+                                Session
+                                <span style="color: #FF0000; font-weight: bold">*</span>
+
+
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="ddlSession" tabindex="2" class="form-control">
+                                    <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                </select>
+
+                            </div>
+                        </div> -->
+                        <!-- <div class="form-group">
+                            <div class="col-sm-6 form-label">
+                                Receipt Book 
+                                <span style="color: #FF0000; font-weight: bold">*</span>
+
+
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="ddlReceiptBook" tabindex="3" class="form-control">
+                                    <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                </select>
+
+                            </div>
+                        </div> -->
+                        <!-- <div class="form-group">
+                            <div class="col-sm-6 form-label">
+                                Basic Course/Branch/Standard
+                                <span style="color: #FF0000; font-weight: bold">*</span>
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="ddlBasicCourse" tabindex="4" class="form-control">
+                                    <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                </select>
+
+                            </div>
+
+                        </div> -->
+                        <!-- <div class="form-group">
+                            <div class="col-sm-6 form-label">
+                                Course/Year/Standard
+                                <span style="color: #FF0000; font-weight: bold">*</span>
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="ddlCourse" tabindex="5" class="form-control">
+                                    <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                </select>
+
+                            </div>
+
+                        </div> -->
+                          <!-- <div class="form-group">
+                                <div class="col-sm-6 form-label">Section </div>
+                                <div class="col-sm-6">
+                                    <select id="ddlSection" class="form-control" tabindex="4">
+                                        <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                                <!-- <div class="form-group">
+                                <div class="col-sm-6 form-label">
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="radio radio-primary">
+                                        <input type="radio" name="Ccriteria" id="rbWithSubject" tabindex="7" value="1" checked="checked" />
+                                        <label for="rbWithSubject">Subject</label>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="radio radio-primary">
+                                        <input type="radio" name="Ccriteria" id="rbWithoutSubjectGroup" tabindex="8" value="0" />
+                                        <label for="rbWithoutSubjectGroup">Subject Group</label>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="form-group">
+                                <div class="col-sm-6 form-label">
+                                    Medium
+                   @* <span style="color: #FF0000; font-weight: bold">*</span>*@
+                                </div>
+                                <div class="col-sm-6">
+                                    <select id="ddlMedium" class="form-control" tabindex="5">
+                                        <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <!-- <div class="form-group" id="divSubject">
+                                <div class="col-sm-6 form-label">
+                                    Subject
+                                </div>
+                                <div class="col-sm-6">
+                                    <select name="ddlSubject" id="ddlSubject" multiple="multiple"></select>
+                                </div>
+                            </div> -->
+                            <!-- <div class="form-group" id="divSubjectGroup">
+                                <div class="col-sm-6 form-label">
+                                    Subject Group
+                                </div>
+                                <div class="col-sm-6">
+                                    <select id="ddlSubGroup" class="form-control">
+                                        <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                    </select>
+                                </div>
+                            </div> -->
+
+                              <!-- <div class="form-group">
+                                <div class="col-sm-6">
+                                   Admission Status @*<span style="color:#FF0000; font-weight:bold;"> *</span>*@
+                                </div>
+                                <div class="col-sm-6">
+                                    <select id="ddlAdmStatus" class="form-control" tabindex="4">
+ 
+
+                                        <option value="-1" selected="selected">Please Select</option>
+                                        <option value="1">ADMITTED</option>
+                                        <option value="2">PROVISIONAL ADMISSION</option>
+                                        <option value="6">YEAR END</option>
+ 
+                                    </select>
+                                </div>
+                            </div> -->
+                        <!-- <div class="form-group">
+                            <div class="col-sm-6 form-label">
+                                Gender
+                            </div>
+                            <div class="col-sm-6">
+                                <select id="ddlGender" tabindex="7" class="form-control">
+                                    <option value="-1" class="loadingDdl" selected="selected">Loading...</option>
+                                </select>
+                            </div>
+                        </div> -->
+
+
+                        <!-- <div class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    &nbsp;
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="button" id="btnSubmit" tabindex="6" class="btn btn-success">
+                                        <span class="fa fa-floppy-o" aria-hidden="true" id="btnSubmitSpan"> Submit</span>
+                                    </button>
+                                    <button type="button" id="btnCancel" tabindex="7" class="btn btn-warning">
+                                        <span class="fa fa-ban" aria-hidden="true"> Cancel</span>
+                                    </button>
+                                    <input type="hidden" id="hdnSession" value='@Session["SESSIONID"]' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+<!-- 
+                <div class="displayImg">
+                    <img src="/Images/loading.gif" style="height: 120px; width: 120px; display: none" class="loading" />
+                </div> -->
+
+
+                <!-- <div class="col-md-5" id="gridTable" style="display: none">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            Fees Details
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-12">
+
+                                <div class="form-horizontal">
+                                      <div class="row Scroll" style="width: 100%; margin: 0 auto;">
+                                       @* <table class="table table-fixed" style="width: 100%;" id="feeheadGrid">*@
+                                          <table id="feeheadGrid" style="width: 100%; margin-bottom:0px; !important;" class="table table-bordered dt-responsive nowrap">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 61%">Total</th>
+                                                    <th style="width: 30%">
+                                                        <input type="text" id="txtTotFees" style="text-align: right" disabled="disabled" class="form-control gTot" />
+                                                   
+                                                         </th>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 61%">Head Description
+                                                    </th>
+                                                    <th style="width: 30%">Amount
+                                                    </th>
+                                                </tr>
+
+                                            </thead>
+                                            <tbody id="grFees">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+
+
+                <div class="col-md-12">
+                    <br />
+
+                   
+                    <div class="col-md-12" id="grdStudent" style="display: none">
+                        <label id="lblNote1" style="font-size:20px;">Note : <label id="lblNote" style="color:red; font-size:20px;"> * Please clear search text before click on submit button</label></label>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                Student  Details
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-horizontal">
+                                    <div class="col-md-6">
+                                        Student  Details (Total Count :
+                                        <label id="lblStudCount"></label>
+                                        )
+                                    </div>
+                                     <div class="col-md-6">
+                                <span class="text-right"><B>Selected Student Count :</B>
+                                <label id="SelectedCount" style="color: red" class="control-label lbl">0</label></span>
+                            </div>
+                                    <div class="row StudScroll" style="width: 100%; margin: 0 auto;">
+                                        @*<table class="table table-fixed" style="width: 100%;" id="exampleSTUD">*@
+                                           <table id="exampleSTUD" style="width: 100%; margin-bottom:0px; !important;" class="table table-bordered dt-responsive nowrap">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:10%" class="col-xs-1">
+                                                        <div class="checkbox default">
+                                                            <input type="checkbox" id="ChkAll" name="ChkAll" />
+                                                            <label for="ChkAll">
+                                                                <b>Select</b>
+                                                            </label>
+                                                        </div>
+                                                    </th>
+                                                    <th class="col-xs-2">StudentId</th>
+                                                    <th class="col-xs-2">Roll No./Reg. No.</th>
+                                                    <th class="col-xs-5">Student Name</th>
+                                                    <th class="col-xs-2">Lock Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="tbodyStud">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

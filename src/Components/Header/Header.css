@@ -1,0 +1,190 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F4F5F9;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+
+  background-color: white;
+  border: 1px;
+  border-color: #000;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  color: #6E39CB;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between;
+
+}
+
+
+/* =========================
+   Nav-Icons
+========================= */
+
+.nav-icon {
+  padding-right: 50px;
+}
+
+.message-icon,
+.notification-icon {
+  margin-left: 20px;
+}
+
+
+.notification {
+  position: relative;
+}
+
+.notification-icon {
+  font-size: 22px;
+  color: #6E39CB;
+  cursor: pointer;
+  display: inline-block;
+  transform-origin: 50% 10%;
+}
+
+.ring {
+  animation: bell-ring 0.9s ease-in-out;
+}
+
+
+/* Profile-Drop-Down */
+
+/* ================= NAV ICONS ================= */
+
+.nav-profile,
+.notification,
+.nav-message {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ================= ICON STYLES ================= */
+
+.profile-icon,
+.notification-icon,
+.message-icon {
+  font-size: 22px;
+  color: #6E39CB;
+  cursor: pointer;
+}
+
+/* ================= NAV DROPDOWN MENU ================= */
+
+.dropdown-menu {
+  min-width: 200px;
+  padding: 8px 0;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+  border: none;
+}
+
+/* ================= NAV DROPDOWN ITEMS ================= */
+
+.dropdown-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #6E39CB;
+  text-decoration: none;
+
+  transition: background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Icon inside nav dropdown */
+.dropdown-menu .dropdown-item i {
+  font-size: 16px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f2ebff;
+  color: #6E39CB;
+  transform: translateX(3px);
+}
+
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #f2ebff;
+  color: #6E39CB;
+}
+
+.notification .dropdown-menu {
+  min-width: 220px;
+}
+
+.message-icon {
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.message-icon:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   SEARCH BAR
+========================= */
+.group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 250px;
+
+}
+
+.input {
+  width: 350px;
+  height: 35px;
+  padding-left: 40px;
+  border-radius: 30px;
+  border: 1px solid #DBDCDE;
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 0 1.5px #2b2c37;
+}
+
+.input::placeholder {
+  color: #bdbecb;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  fill: #bdbecb;
+  pointer-events: none;
+}
+
+.main-container {
+  padding-bottom: 50px;
+}
