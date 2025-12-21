@@ -1,0 +1,21 @@
+.counts{
+height: 340;
+opacity: 1;
+border-radius: 8px;
+padding: 30px;
+gap: 30px;
+background-color: white;
+margin-left: 10px;
+}
+
+
+.cards-1 h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A3541;
+}
+.withdrawal-amt h1{
+font: 25px;
+font-weight: 700;
+color: #6E39CB;
+}
