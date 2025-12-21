@@ -1,21 +1,85 @@
-.counts{
-height: 340;
-opacity: 1;
-border-radius: 8px;
-padding: 30px;
-gap: 30px;
-background-color: white;
-margin-left: 10px;
+.counts {
+  
+    height: 167px;
+    width: 1580px;
+    opacity: 1;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 30px;
+    background-color: white;
+    margin-left: 10px;
+
+}
+/* Header Card Spacing */
+
+.card-2, .card-3, .card-4{
+margin-left: 100px;
 }
 
+.cards {
+    margin-left: 70px;
+}
 
-.cards-1 h6{
+/* Caed-Divider */
+.cardDivider {
+    margin-left: 100px;
+}
+
+/* Header Card-1 */
+.cards-1 {
+    flex-direction: column;
+}
+
+.cards-1 h6 {
+    justify-content: flex-start;
     font-size: 16px;
     font-weight: 500;
     color: #3A3541;
 }
-.withdrawal-amt h1{
-font: 25px;
-font-weight: 700;
-color: #6E39CB;
+
+.withdrawal-amt {
+    flex-direction: column;
+}
+
+.withdrawal-amt h1 {
+    font: 25px;
+    font-weight: 700;
+    color: #6E39CB;
+}
+
+.withdrawal-amt p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #89868D;
+}
+
+
+/* Header Card-Sup */
+
+#neutral-sup, #profit-sup, #loss-sup{
+      margin-left: 10px;
+    font: 12px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+#neutral-sup{
+    background-color: #F4F5F9;
+    color: #6E39CB;
+}
+
+#profit-sup { 
+    background-color: #EEFFEB;
+    color: #6E39CB;
+}
+
+#loss-sup{
+    background-color: #FFEFEF;
+    color: #F93131;
+}
+#profit-sup, #loss-sup, #neutral-sup img {
+    margin-right: 5px;
 }
