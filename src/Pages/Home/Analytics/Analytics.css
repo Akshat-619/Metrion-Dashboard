@@ -1,35 +1,19 @@
 .counts {
-  
-    height: 167px;
-    width: 1580px;
-    opacity: 1;
-    border-radius: 8px;
-    padding: 30px;
-    gap: 30px;
-    background-color: white;
-    margin-left: 10px;
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0px 0px 4px 0px #00000026;
 
-}
-/* Header Card Spacing */
-
-.card-2, .card-3, .card-4{
-margin-left: 100px;
+  max-width: 1400px;   /* ✅ KEY FIX */
+  width: 100%;         /* optional, safe with max-width */
 }
 
-.cards {
-    margin-left: 70px;
+/* Shared card styling */
+.card-item {
+  height: 100%;
+  padding: 16px;
+  border-radius: 6px;
 }
-
-/* Caed-Divider */
-.cardDivider {
-    margin-left: 100px;
-}
-
-/* Header Card-1 */
-.cards-1 {
-    flex-direction: column;
-}
-
 .cards-1 h6 {
     justify-content: flex-start;
     font-size: 16px;
@@ -80,6 +64,32 @@ margin-left: 100px;
     background-color: #FFEFEF;
     color: #F93131;
 }
-#profit-sup, #loss-sup, #neutral-sup img {
+#profit-sup img {
     margin-right: 5px;
+}
+
+#loss-sup img {
+    margin-right: 5px;
+}
+
+#neutral-sup img {
+    margin-right: 5px;
+}
+
+/* Device Category */
+
+.device-category{
+width: 287px;
+    height: 340px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px #00000026;
+
+}
+
+.dcTitle{
+    font-size: 20px;
+    font-weight: 500;
+     font-style: medium;   
+     color: #3A3541;
 }
