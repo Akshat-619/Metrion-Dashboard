@@ -2,16 +2,19 @@ import React from 'react'
 import "./Analytics.css"
 import profitIcon from "../../../assets/profitIcon.png";
 import lossIcon from "../../../assets/lossIcon.png";
+import salesFunnelIcon from "../../../assets/salesFunneliconDown.png";
+import SalesFunnelChart from './salesFunnelChart.jsx';
+
 
 const Analytics = () => {
   return (
     <div className="col-12 px-4">
-      <div className="counts  mx-auto mt-5">
+      <div className="counts d-flex justify-content-between mx-auto mt-5 ">
 
-        <div className="row g-4 align-items-center">
+        
           
           {/* Card 1 */}
-          <div className="col-3">
+        
             <div className="card-item card-1">
               <h6>
                 Available to withdraw
@@ -24,10 +27,11 @@ const Analytics = () => {
                 <p>Wed, Jul 20</p>
               </div>
             </div>
-          </div>
+            <div className="empty-border"></div>
+          
 
           {/* Card 2 */}
-          <div className="col-3">
+          
             <div className="card-item card-2">
               <h6>
                 Today Revenue
@@ -40,10 +44,10 @@ const Analytics = () => {
                 <p>143 Orders</p>
               </div>
             </div>
-          </div>
+            <div className="empty-border"></div>
 
           {/* Card 3 */}
-          <div className="col-3">
+          
             <div className="card-item card-3">
               <h6>
                 Today Sessions
@@ -56,10 +60,10 @@ const Analytics = () => {
                 <p>32k Visitors</p>
               </div>
             </div>
-          </div>
+            <div className="empty-border"></div>
 
           {/* Card 4 */}
-          <div className="col-3">
+         
             <div className="card-item card-4">
               <h6>
                 Subscribers
@@ -74,9 +78,38 @@ const Analytics = () => {
             </div>
           </div>
 
-        </div>
-      </div>
+
+
+
+<div className="row">
+  <div className="col-lg-9 col-md-9 col-12">
+
+{/* Sales Funnel Section */}
+    <div className="salesFunnel mt-5">
+    <div className="d-flex salesFunnelTitle m-0">
+      <h4>Sales Funnel</h4>
+      <p>This Month <img src={salesFunnelIcon}/></p>
     </div>
+    <div className="salesFunnelChart mt-2">
+    <SalesFunnelChart />
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+</div>
   )
 }
 

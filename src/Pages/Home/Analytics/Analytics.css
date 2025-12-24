@@ -1,7 +1,8 @@
 .counts {
+    align-items: stretch;
   background: white;
   border-radius: 8px;
-  padding: 30px;
+  padding: 30px 50px;
   box-shadow: 0px 0px 4px 0px #00000026;
 
   max-width: 1400px;   /* ✅ KEY FIX */
@@ -19,6 +20,13 @@
     font-size: 16px;
     font-weight: 500;
     color: #3A3541;
+    
+}
+
+
+.empty-border{
+  border-left: 1px solid #E0E0E0;
+   
 }
 
 .withdrawal-amt {
@@ -76,20 +84,31 @@
     margin-right: 5px;
 }
 
-/* Device Category */
+/* Sales Funnel Section */
+.salesFunnel{
+background-color: white;
 
-.device-category{
-width: 287px;
-    height: 340px;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0px 0px 4px 0px #00000026;
-
+.salesFunnelChart{
+opacity: 1;
+background-color: white;
 }
 
-.dcTitle{
+.salesFunnelTitle{
+justify-content: space-between;
+align-items: center;
+}
+}
+
+.salesFunnelTitle h4{
     font-size: 20px;
-    font-weight: 500;
-     font-style: medium;   
-     color: #3A3541;
+    font-weight:500;
+    color: #3A3541;
+}
+
+.salesFunnelTitle p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E39CB;
+    padding: 5px;
+    background-color: #F4F5F9;
 }
