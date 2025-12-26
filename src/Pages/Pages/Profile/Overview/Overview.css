@@ -1,0 +1,118 @@
+/* Overview Cards */
+.cards {
+
+    opacity: 1;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px 0px #00000026
+}
+
+.innerText h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.innerText h5 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E39CB;
+    margin-left: 10px;
+}
+
+.innerText h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #89868D;
+}
+
+/* Followers */
+
+
+
+
+
+.inner-followers h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.followerChartindex span {
+    margin-left: 15px;
+}
+
+.innerText h5 span.loss {
+    color: #FF4C51;
+}
+
+.inner-followers .followerChartindex span {
+    position: relative;
+}
+
+.inner-followers .followerChartindex span::after {
+    position: absolute;
+    background-color: #F93131;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    content: "";
+    left: -10px;
+    top: 3px;
+    bottom: 0px;
+    margin: auto;
+
+}
+
+.inner-followers .followerChartindex span.Income {
+    color: #F93131;
+}
+
+
+.inner-followers .followerChartindex span.Outcome {
+    color: #6E39CB;
+}
+
+.inner-followers .followerChartindex span.Outcome::after {
+    background-color: #6E39CB;
+
+
+}
+
+/* Actions */
+
+.actionsTitle h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Actions h1 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.actionsList h5 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.actionsList h5 span {
+    color: #6E39CB;
+}
+
+/* Interaction */
+.SubCard {
+    opacity: 1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+.SubCard_Heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
