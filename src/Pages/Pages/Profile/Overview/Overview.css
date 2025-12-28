@@ -29,9 +29,6 @@
 /* Followers */
 
 
-
-
-
 .inner-followers h4 {
     font-size: 20px;
     font-weight: 500;
@@ -103,7 +100,45 @@
     color: #6E39CB;
 }
 
-/* Interaction */
+.bestTimeBtn{
+    background-color: #FFFFFF;
+    color: #BE99FE;
+    border: none;
+}
+.bestTimeBtn.active {
+  color: #6E39CB;         
+}
+
+/* Right Container */
+.right-container{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Components */
 .SubCard {
     opacity: 1;
     border-radius: 8px;
