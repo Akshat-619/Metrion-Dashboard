@@ -7,7 +7,7 @@ import card1 from '../../../../assets/card1.png'
 import card2 from '../../../../assets/card2.png'
 import card3 from '../../../../assets/card3.png'
 
-import FollowersChart from './followersChart'
+import FollowersChart from './FollowersChart'
 import InteractionChart from './InteractionChart'
 import BestTimeChart from './BestTimeChart'   // ✅ MISSING IMPORT FIXED
 
